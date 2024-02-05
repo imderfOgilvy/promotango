@@ -281,7 +281,9 @@ export default function RegisterPage() {
                   onChange={handleReCAPTCHA}
                 />
               </div>
-              <Button id={'click_registrarse'} type='submit'>REGISTRARSE</Button>
+              <div className={'click_registrarse'}>
+                <Button id={'click_registrarse'} type='submit'>REGISTRARSE</Button>
+              </div>
               <small class='font-amsi-normal block text-center text-white mt-4 mb-1 uppercase'>
                 ¿Ya tienes una cuenta?
               </small>

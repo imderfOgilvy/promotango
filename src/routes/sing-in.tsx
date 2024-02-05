@@ -167,7 +167,9 @@ export default function LoginPage() {
           <div class='flex justify-center items-center mt-4'>
             <ReCAPTCHA sitekey={SITE_KEY_CAPTCHA} onChange={handleReCAPTCHA} />
           </div>
-          <Button id={'cick_ingresar'} type='submit'>INGRESAR</Button>
+          <div className={'click_ingresar'}>
+            <Button id={'click_ingresar'} type='submit'>INGRESAR</Button>
+          </div>
           <small class='font-amsi-normal block text-center text-white mt-8 mb-1 uppercase'>
             ¿Aún no tienes una cuenta?
           </small>

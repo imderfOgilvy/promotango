@@ -387,7 +387,9 @@ export default function DashboardPage() {
                       required
                     />
                   </button>
-                  <Button type='submit' id={'click_send'}>ENVIAR</Button>
+                  <div className={'click_send'}>
+                    <Button type='submit' id={'click_send'}>ENVIAR</Button>
+                  </div>
                 </div>
                 <div class='px-2 mb-4 text-center'>
                   <Checkbox />

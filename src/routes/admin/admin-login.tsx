@@ -127,7 +127,9 @@ export function AdminPage() {
           <div class='flex justify-center items-center mt-4'>
             <ReCAPTCHA sitekey={SITE_KEY_CAPTCHA} onChange={handleReCAPTCHA} />
           </div>
-          <Button id={'click_admin_ingresar'} type='submit'>INGRESAR</Button>
+          <div className={'click_admin_ingresar'}>
+            <Button id={'click_admin_ingresar'} type='submit'>INGRESAR</Button>
+          </div>
         </form>
       </section>
     </>
