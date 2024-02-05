@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'amsi-italic';
+  src: url('./fonts/Stawix-AmsiPro-SemiBoldItalic.otf');
+}
+
+@font-face {
+  font-family: 'amsi-bold';
+  src: url('./fonts/Stawix-AmsiProCond-Black.otf');
+}
+
+@font-face {
+  font-family: 'amsi-normal';
+  src: url('./fonts/Stawix-AmsiProNarw-Ultra.otf');
+}
+
+@font-face {
+  font-family: 'amsi-regular';
+  src: url('./fonts/FontsFree-Net-AmsiPro-Regular.ttf');
+}
+
+:root {
+  --font-amsi-semibold: 'amsi-italic';
+  --font-amsi-bold: 'amsi-bold';
+  --font-amsi-normal: 'amsi-normal';
+  --font-amsi-regular: 'amsi-regular';
+}
