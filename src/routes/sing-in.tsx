@@ -13,6 +13,7 @@ import wanrPng from '/warn.png'
 import errorPng from '/no-checked.png'
 import { IconEye, IconEyeClose } from '@/components/icons'
 import ReactGA from 'react-ga4'
+import TagManager from 'react-gtm-module'
 
 export default function LoginPage() {
   const [user, setUser] = useState({
@@ -25,12 +26,27 @@ export default function LoginPage() {
     extra: '',
   })
 
+  
+
   const [isReCAPTCHA, setIsReCAPTCHA] = useState(false)
   const { isOpen, setIsOpen, showPassword, handleTogglePasswordVisibility } =
     useModal()
 
   const handleReCAPTCHA = () => {
     setIsReCAPTCHA(() => !isReCAPTCHA)
+  }
+
+  const sendGTM = () => {
+    // Envía el evento de clic al dataLayer de GTM
+    // Push an event to the data layer
+    TagManager.dataLayer({
+      dataLayer: {
+        event: 'buttonClick', // Event name
+        buttonName: 'REGISTRARME', // Additional data
+      },
+    })
+
+    // Adicionalmente, puedes ejecutar cualquier otra lógica que necesites al hacer clic en el botón
   }
 
   const handleGetInputValue = (key: string, value: string) => {
@@ -175,6 +191,7 @@ export default function LoginPage() {
           </small>
           <div class='flex justify-center'>
             <button
+              onClick={sendGTM}
               id={'click_register'}
               type='button'
               class='bg-brown text-white rounded-xl font-bold text-lg text-center w-[15rem] p-2 hover:opacity-95'
