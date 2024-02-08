@@ -14,6 +14,7 @@ import errorPng from '/no-checked.png'
 import { IconEye, IconEyeClose } from '@/components/icons'
 import ReactGA from 'react-ga4'
 import TagManager from 'react-gtm-module'
+import { PasswordDialog } from '@/components/ui/password-dialog'
 
 export default function LoginPage() {
   const [user, setUser] = useState({
@@ -26,8 +27,9 @@ export default function LoginPage() {
     extra: '',
   })
 
-  
-
+  const [isOpenDailog, setIsOpenDialog] = useState(false)
+  const [emailUser, setEmailUser] = useState('')
+  const [newPassword, setNewPassword] = useState('')
   const [isReCAPTCHA, setIsReCAPTCHA] = useState(false)
   const { isOpen, setIsOpen, showPassword, handleTogglePasswordVisibility } =
     useModal()
@@ -112,6 +114,41 @@ export default function LoginPage() {
     setIsOpen(false)
   }
 
+  const handleUpdatePassword = async (e: Event) => {
+    e.preventDefault()
+
+    const form = e.target as HTMLFormElement
+    if (!emailUser || !newPassword) return
+
+    try {
+      await axiosInstance.patch(`auth/update/${emailUser}`, {
+        new_password: newPassword,
+      })
+
+      setIsMessage(() => ({
+        type: 'success',
+        message: 'CONTRASEÑA ACTULIZADA',
+        extra: '',
+      }))
+
+    } catch (error) {
+      const axiosError = error as AxiosError
+      
+      if (axiosError && axiosError.response?.status === 404) {
+        setIsMessage(() => ({
+          type: 'email',
+          message: 'ESTE USUARIO NO EXISTE',
+          extra: '',
+        }))
+        setIsOpen(true)
+      }
+    } finally {
+      form.reset()
+      setIsOpenDialog(false)
+    }
+  }
+
+
   useEffect(() => {
     ReactGA.send({
       hitType: 'pageview',
@@ -186,6 +223,12 @@ export default function LoginPage() {
           <div className={'click_ingresar'}>
             <Button id={'click_ingresar'} type='submit'>INGRESAR</Button>
           </div>
+          <small
+            class='text-sm font-amsi-normal block text-center text-white mt-4 mb-1 cursor-pointer'
+            onClick={() => setIsOpenDialog(true)}
+          >
+            ¿Olvidaste la Contraseña?
+          </small>
           <small class='font-amsi-normal block text-center text-white mt-8 mb-1 uppercase'>
             ¿Aún no tienes una cuenta?
           </small>
@@ -201,6 +244,13 @@ export default function LoginPage() {
           </div>
         </form>
       </section>
+      <PasswordDialog
+        isOpenDialog={isOpenDailog}
+        closeModal={() => setIsOpenDialog(false)}
+        setEmailUser={setEmailUser}
+        setNewPassword={setNewPassword}
+        handleUpdatePassword={handleUpdatePassword}
+      />
     </>
   )
 }
