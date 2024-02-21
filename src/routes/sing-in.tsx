@@ -26,7 +26,6 @@ export default function LoginPage() {
     extra: '',
   })
 
-  
 
   const [isReCAPTCHA, setIsReCAPTCHA] = useState(false)
   const { isOpen, setIsOpen, showPassword, handleTogglePasswordVisibility } =
@@ -37,6 +36,7 @@ export default function LoginPage() {
   }
 
   const sendGTM = () => {
+    console.log('disparo el GTM bfbernalgo')
     // Envía el evento de clic al dataLayer de GTM
     // Push an event to the data layer
     TagManager.dataLayer({

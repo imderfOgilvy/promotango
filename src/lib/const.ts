@@ -239,436 +239,170 @@ export const win = [
   {
     week: 'Semana 1',
     wind: [
-      {
-        label: '092XXXX851',
-        name: 'ANA VARGAS GONZÁLEZ'
-      },
-      {
-        label: '099XXXX773',
-        name: 'ANDREA ESTEFANÍA ALEGRÍA BARTOLOMÉ'
-      },
-      {
-        label: '172XXXX640',
-        name: 'ANDREINA ORTEGA MUÑOZ'
-      },
-      {
-        label: '131XXXX736',
-        name: 'ANGIE STEFANY CEVALLOS BAQUERIZO'
-      },
-      {
-        label: '095XXXX137',
-        name: 'BETY DEL ROCIO VERA CARPIO'
-      },
-      {
-        label: '093XXXX383',
-        name: 'BRUNO VALENZUELA'
-      },
-      {
-        label: '172XXXX365',
-        name: 'DANILO LLUMIQUINGA'
-      },
-      {
-        label: '172XXXX968',
-        name: 'DAYANNA LUCERO'
-      },
-      {
-        label: '095XXXX006',
-        name: 'DIEGO GARCIA'
-      },
-      {
-        label: '093XXXX242',
-        name: 'DOMENICA FRANCO'
-      },
-      {
-        label: '095XXXX2947',
-        name: 'EDISON MORA'
-      },
-      {
-        label: '171XXXX542',
-        name: 'ELIANA ELIZABETH RODRÍGUEZ SIERRA'
-      },
-      {
-        label: '095XXXX438',
-        name: 'ESTEFANIA CAROLINA FRANCO ALVARADO'
-      },
-      {
-        label: '091XXXX624',
-        name: 'FLOR GRACIELA MONTOYA SILVA'
-      },
-      {
-        label: '092XXXX744',
-        name: 'FRANCISCA ZURITA'
-      },
-      {
-        label: '135XXXX980',
-        name: 'ISMAEL FRANCISCO FLORES PILLIGUA'
-      },
-      {
-        label: '090XXXX161',
-        name: 'JAIME SALAZAR'
-      },
-      {
-        label: '030XXXX635',
-        name: 'JAIME CARPIO CHIMA'
-      },
-      {
-        label: '131XXXX408',
-        name: 'JOCELYNE MURILLO'
-      },
-      {
-        label: '091XXXX233',
-        name: 'JOHANNA VILLACIS'
-      },
-      {
-        label: '172XXXX675',
-        name: 'JONATHAN LUCERO'
-      },
-      {
-        label: '092XXXX130',
-        name: 'JUANA ELIZABETH ALCIVAR ALVARADO'
-      },
-      {
-        label: '090XXXX576',
-        name: 'JULIA SILVA LEÓN'
-      },
-      {
-        label: '091XXXX873',
-        name: 'LORENA MARIA SORIANO FIGUEROA'
-      },
-      {
-        label: '095XXXX515',
-        name: 'MALLY JARAMILLO'
-      },
-      {
-        label: '171XXXX849',
-        name: 'MONICA GALLEGOS'
-      },
-      {
-        label: '090XXXX355',
-        name: 'OTO AGUSTIN RUGEL ANCHUNDIA'
-      },
-      {
-        label: '131XXXX314',
-        name: 'ROBERTO ESPINALES CALDERON'
-      },
-      {
-        label: '091XXXX569',
-        name: 'ROLANDO MORA'
-      },
-      {
-        label: '091XXXX235',
-        name: 'SILVIA MORA'
-      },
-      {
-        label: '095XXXX545',
-        name: 'STEFANIA FUENTES'
-      },
-      {
-        label: '100XXXX598',
-        name: 'TATIANA JANETH AYALA AYALA'
-      },
-      {
-        label: '092XXXX891',
-        name: 'VICENTE RODOLFO RONDAN ALLAUCA'
-      }
-    ]
-  },  
+      { label: '092XXXX851', name: 'ANA VARGAS GONZÁLEZ' },
+      { label: '099XXXX773', name: 'ANDREA ESTEFANÍA ALEGRÍA BARTOLOMÉ' },
+      { label: '172XXXX640', name: 'ANDREINA ORTEGA MUÑOZ' },
+      { label: '131XXXX736', name: 'ANGIE STEFANY CEVALLOS BAQUERIZO' },
+      { label: '095XXXX137', name: 'BETY DEL ROCIO VERA CARPIO' },
+      { label: '093XXXX383', name: 'BRUNO VALENZUELA' },
+      { label: '172XXXX365', name: 'DANILO LLUMIQUINGA' },
+      { label: '172XXXX968', name: 'DAYANNA LUCERO' },
+      { label: '095XXXX006', name: 'DIEGO GARCIA' },
+      { label: '093XXXX242', name: 'DOMENICA FRANCO' },
+      { label: '095XXXX947', name: 'EDISON MORA' },
+      { label: '171XXXX542', name: 'ELIANA ELIZABETH RODRÍGUEZ SIERRA' },
+      { label: '095XXXX438', name: 'ESTEFANIA CAROLINA FRANCO ALVARADO' },
+      { label: '091XXXX624', name: 'FLOR GRACIELA MONTOYA SILVA' },
+      { label: '092XXXX744', name: 'FRANCISCA ZURITA' },
+      { label: '135XXXX980', name: 'ISMAEL FRANCISCO FLORES PILLIGUA' },
+      { label: '090XXXX161', name: 'JAIME SALAZAR' },
+      { label: '030XXXX635', name: 'JAIME CARPIO CHIMA' },
+      { label: '131XXXX408', name: 'JOCELYNE MURILLO' },
+      { label: '091XXXX233', name: 'JOHANNA VILLACIS' },
+      { label: '172XXXX675', name: 'JONATHAN LUCERO' },
+      { label: '092XXXX130', name: 'JUANA ELIZABETH ALCIVAR ALVARADO' },
+      { label: '090XXXX576', name: 'JULIA SILVA LEÓN' },
+      { label: '091XXXX873', name: 'LORENA MARIA SORIANO FIGUEROA' },
+      { label: '095XXXX515', name: 'MALLY JARAMILLO' },
+      { label: '171XXXX849', name: 'MONICA GALLEGOS' },
+      { label: '090XXXX355', name: 'OTO AGUSTIN RUGEL ANCHUNDIA' },
+      { label: '131XXXX314', name: 'ROBERTO ESPINALES CALDERON' },
+      { label: '091XXXX569', name: 'ROLANDO MORA' },
+      { label: '091XXXX235', name: 'SILVIA MORA' },
+      { label: '095XXXX545', name: 'STEFANIA FUENTES' },
+      { label: '100XXXX598', name: 'TATIANA JANETH AYALA AYALA' },
+      { label: '092XXXX891', name: 'VICENTE RODOLFO RONDAN ALLAUCA' },
+      { label: '130XXXX648', name: 'FERMIN ESPINALES' },
+      { label: '130XXXX487', name: 'KELVIN ZAMBRANO' },
+    ],
+  },
   {
     week: 'Semana 2',
     wind: [
-      {
-        label: '171XXXX411',
-        name: 'JOSÉ GRANDA'
-      },
-      {
-        label: '095XXXX997',
-        name: 'JOSE ALVARADO'
-      },
-      {
-        label: '171XXXX756',
-        name: 'DIANA PAREDES'
-      },
-      {
-        label: '172XXXX300',
-        name: 'FRANKLIN SALAZAR GONZÁLEZ'
-      },
-      {
-        label: '090XXXX355',
-        name: 'OTRO RUGEL ANCUNDIA'
-      },
-      {
-        label: '172XXXX989',
-        name: 'ALEXEI RAMOS'
-      },
-      {
-        label: 'XXXXXXXXX',
-        name: 'MARTHA CARRASCO'
-      },
-      {
-        label: '092XXXX954',
-        name: 'PAUL ALEJANDRO MACAY MONTERO'
-      },
-      {
-        label: '175XXXX829',
-        name: 'MARCOS TOAPANTA'
-      },
-      {
-        label: '091XXXX643',
-        name: 'NUKMOY MARIA HASING QUINTANA'
-      },
-      {
-        label: '090XXXX394',
-        name: 'MARÍA TORRES'
-      },
-      {
-        label: '171XXXX749',
-        name: 'MAURICIO PAREDES'
-      },
-      {
-        label: '170XXXX631',
-        name: 'DIANA PAREDES'
-      },
-      {
-        label: '100XXXX941',
-        name: 'AARON IMBAQUINGO'
-      },
-      {
-        label: '092XXXX060',
-        name: 'DIANA LORENA ACOSTA SORIANO'
-      },
-      {
-        label: '175XXXX453',
-        name: 'FRANCISCO PAREDES'
-      },
-      {
-        label: '131XXXX821',
-        name: 'JONATHAN ESPINALES'
-      },
-      {
-        label: '091XXXX722',
-        name: 'JENNIFER JEANNETTE VIÑA MEJIA'
-      },
-      {
-        label: '131XXXX448',
-        name: 'KARLA MENDOZA'
-      },
-      {
-        label: '172XXXX702',
-        name: 'JULIETH PINCHA'
-      },
-      {
-        label: '172XXXX818',
-        name: 'KATHERINE RAMÍREZ'
-      },
-      {
-        label: '091XXXX002',
-        name: 'MERCEDES GÓMEZ TOMALÁ'
-      },
-      {
-        label: '175XXXX550',
-        name: 'MARYURI CARRERA'
-      },
-      {
-        label: '093XXXX249',
-        name: 'FREDDY GUEVARA'
-      },
-      {
-        label: '131XXXX744',
-        name: 'ARTURO CRISTHOFER STACEY BAQUERIZO'
-      },
-      {
-        label: 'XXXXXXXXX',
-        name: 'ANGIE STEFANY CEVALLOS BAQUERIZO'
-      },
-      {
-        label: 'XXXXXXXXX',
-        name: 'RONALD MARQUEZ'
-      },
-      {
-        label: '091XXXX569',
-        name: 'ROLANDO MORA'
-      },
-      {
-        label: '130XXXX748',
-        name: 'KENNEDY ORLANDO FLORES HOLGUIN'
-      },
-      {
-        label: '091XXXX736',
-        name: 'JUAN HIDALGO'
-      },
-      {
-        label: '092XXXX926',
-        name: 'DENISSE CABRERA GUTIÉRREZ'
-      },
-      {
-        label: '120XXXX708',
-        name: 'FERNANDO SÁNCHEZ GARCIA'
-      },
-      {
-        label: '130XXXX416',
-        name: 'BEATRIZ ALCIVAR'
-      },
-      {
-        label: '092XXXX954',
-        name: 'PAUL ALEJANDRO MACAY MONTERO'
-      },
-      {
-        label: '093XXXX249',
-        name: 'FREDDY GUEVARA'
-      },
-      {
-        label: '095XXXX598',
-        name: 'JEREMY ESPINALES'
-      },
-      {
-        label: '092XXXX557',
-        name: 'KARINA ANCHUNDIA ALVARADO'
-      },
-      {
-        label: '091XXXX235',
-        name: 'SILVIA MORA'
-      }
-    ]
+      { label: '100XXXX941', name: 'AARON IMBAQUINGO' },
+      { label: '172XXXX989', name: 'ALEXEI RAMOS' },
+      { label: 'XXXXXXXXX', name: 'ANGIE STEFANY CEVALLOS BAQUERIZO' },
+      { label: '131XXXX744', name: 'ARTURO CRISTHOFER STACEY BAQUERIZO' },
+      { label: '130XXXX416', name: 'BEATRIZ ALCIVAR' },
+      { label: '092XXXX926', name: 'DENISSE CABRERA GUTIÉRREZ' },
+      { label: '092XXXX060', name: 'DIANA LORENA ACOSTA SORIANO' },
+      { label: '170XXXX631', name: 'DIANA PAREDES' },
+      { label: '171XXXX756', name: 'DIANA PAREDES' },
+      { label: '120XXXX708', name: 'FERNANDO SÁNCHEZ GARCIA' },
+      { label: '175XXXX453', name: 'FRANCISCO PAREDES' },
+      { label: '172XXXX300', name: 'FRANKLIN SALAZAR GONZÁLEZ' },
+      { label: '093XXXX249', name: 'FREDDY GUEVARA' },
+      { label: '091XXXX722', name: 'JENNIFER JEANNETTE VIÑA MEJIA' },
+      { label: '095XXXX598', name: 'JEREMY ESPINALES' },
+      { label: '131XXXX821', name: 'JONATHAN ESPINALES' },
+      { label: '171XXXX411', name: 'JOSÉ GRANDA' },
+      { label: '095XXXX997', name: 'JOSE ALVARADO' },
+      { label: '091XXXX736', name: 'JUAN HIDALGO' },
+      { label: '172XXXX702', name: 'JULIETH PINCHA' },
+      { label: '092XXXX557', name: 'KARINA ANCHUNDIA ALVARADO' },
+      { label: '131XXXX448', name: 'KARLA MENDOZA' },
+      { label: '172XXXX818', name: 'KATHERINE RAMÍREZ' },
+      { label: '130XXXX748', name: 'KENNEDY ORLANDO FLORES HOLGUIN' },
+      { label: '175XXXX829', name: 'MARCOS TOAPANTA' },
+      { label: '090XXXX394', name: 'MARÍA TORRES' },
+      { label: 'XXXXXXXXX', name: 'MARTHA CARRASCO' },
+      { label: '175XXXX550', name: 'MARYURI CARRERA' },
+      { label: '171XXXX749', name: 'MAURICIO PAREDES' },
+      { label: '091XXXX002', name: 'MERCEDES GÓMEZ TOMALÁ' },
+      { label: '091XXXX975', name: 'MERCY BELTRAN' },
+      { label: '091XXXX643', name: 'NUKMOY MARIA HASING QUINTANA' },
+      { label: '090XXXX355', name: 'OTRO RUGEL ANCUNDIA' },
+      { label: '092XXXX960', name: 'PATRICIA CARPIO CHIMA' },
+      { label: '092XXXX954', name: 'PAUL ALEJANDRO MACAY MONTERO' },
+      { label: '091XXXX569', name: 'ROLANDO MORA' },
+      { label: 'XXXXXXXXX', name: 'RONALD MARQUEZ' },
+      { label: '091XXXX235', name: 'SILVIA MORA' },
+    ],
   },
   {
     week: 'Semana 3',
     wind: [
-      {
-        label: '080XXXX034',
-        name: 'ANTHONY QUIÑÓNEZ'
-      },
-      {
-        label: '131XXXX469',
-        name: 'ERICK GARCIA'
-      },
-      {
-        label: '170XXXX145',
-        name: 'CONSUELO VILLAVICENCIO'
-      },
-      {
-        label: '091XXXX587',
-        name: 'MARCO CAMILO HERRERA REINOSO'
-      },
-      {
-        label: '091XXXX616',
-        name: 'KARLA BAJAÑA ALAVA'
-      },
-      {
-        label: '090XXXX881',
-        name: 'MONICA BARTOLOME'
-      },
-      {
-        label: '094XXXX675',
-        name: 'VICTOR ENRIQUE NAVARRETE'
-      },
-      {
-        label: '095XXXX983',
-        name: 'CHRISTIAN MORA'
-      },
-      {
-        label: '131XXXX463',
-        name: 'LUCIA ALCIVAR PACHAY'
-      },
-      {
-        label: '095XXXX071',
-        name: 'GIOVANNY VERA'
-      },
-      {
-        label: '093XXXX023',
-        name: 'LIZ NADIA SAMANIEGO'
-      },
-      {
-        label: '094XXXX822',
-        name: 'PAULO BERNABE ALTAMIRANO'
-      },
-      {
-        label: '171XXXX749',
-        name: 'MAURICIO PAREDES'
-      },
-      {
-        label: '095XXXX509',
-        name: 'DANIEL SEBASTIAN CASTRO VERA'
-      },
-      {
-        label: '091XXXX316',
-        name: 'PEDRO HÉCTOR ANCHUNDIA ALVARADO'
-      },
-      {
-        label: '090XXXX714',
-        name: 'MARIA ANGELA ALLAUCA AISABUCHA'
-      },
-      {
-        label: '095XXXX253',
-        name: 'WILLY JOSE VERA CARPIO'
-      },
-      {
-        label: '091XXXX887',
-        name: 'RAFAEL LEONIDAS MONTOYA SILVA'
-      },
-      {
-        label: '080XXXX034',
-        name: 'ANTHONY QUIÑÓNEZ'
-      },
-      {
-        label: '095XXXX496',
-        name: 'DIANA JARAMILLO GÓMEZ'
-      },
-      {
-        label: 'XXXXXXXXX',
-        name: 'GEORGE VEGA'
-      },
-      {
-        label: '092XXXX770',
-        name: 'EDUARDO LEÓN'
-      },
-      {
-        label: '172XXXX760',
-        name: 'STEFANI GRIJALVA'
-      },
-      {
-        label: '091XXXX460',
-        name: 'ALINA CADMELEMA ESPINOZA'
-      },
-      {
-        label: '120XXXX708',
-        name: 'FERNANDO SÁNCHEZ GARCIA'
-      }
-    ]
+      { label: '091XXXX460', name: 'ALINA CADMELEMA ESPINOZA' },
+      { label: '080XXXX034', name: 'ANTHONY QUIÑÓNEZ' },
+      { label: '095XXXX983', name: 'CHRISTIAN MORA' },
+      { label: '170XXXX145', name: 'CONSUELO VILLAVICENCIO' },
+      { label: '095XXXX509', name: 'DANIEL SEBASTIAN CASTRO VERA' },
+      { label: '095XXXX496', name: 'DIANA JARAMILLO GÓMEZ' },
+      { label: '092XXXX770', name: 'EDUARDO LEÓN' },
+      { label: '131XXXX469', name: 'ERICK GARCIA' },
+      { label: '120XXXX708', name: 'FERNANDO SÁNCHEZ GARCIA' },
+      { label: 'XXXXXXXXX', name: 'GEORGE VEGA' },
+      { label: '095XXXX071', name: 'GIOVANNY VERA' },
+      { label: '091XXXX616', name: 'KARLA BAJAÑA ALAVA' },
+      { label: '093XXXX023', name: 'LIZ NADIA SAMANIEGO' },
+      { label: '131XXXX463', name: 'LUCIA ALCIVAR PACHAY' },
+      { label: '091XXXX587', name: 'MARCO CAMILO HERRERA REINOSO' },
+      { label: '090XXXX714', name: 'MARIA ANGELA ALLAUCA AISABUCHA' },
+      { label: '171XXXX749', name: 'MAURICIO PAREDES' },
+      { label: '090XXXX881', name: 'MONICA BARTOLOME' },
+      { label: '094XXXX822', name: 'PAULO BERNABE ALTAMIRANO' },
+      { label: '091XXXX316', name: 'PEDRO HÉCTOR ANCHUNDIA ALVARADO' },
+      { label: '091XXXX887', name: 'RAFAEL LEONIDAS MONTOYA SILVA' },
+      { label: '172XXXX760', name: 'STEFANI GRIJALVA' },
+      { label: '094XXXX675', name: 'VICTOR ENRIQUE NAVARRETE' },
+      { label: '095XXXX253', name: 'WILLY JOSE VERA CARPIO' },
+    ],
   },
   {
     week: 'Semana 4',
     wind: [
-      {
-        label: '131XXXX106',
-        name: 'JOHANA BRAVO'
-      },
-      {
-        label: '095XXXX557',
-        name: 'KATHERINE YULISA RAMIREZ NAVARRETE'
-      },
-      {
-        label: '091XXXX248',
-        name: 'WENDY NAVARRETE'
-      },
-      {
-        label: '172XXXX599',
-        name: 'ARACELY HERRERA'
-      },
-      {
-        label: '107XXX597',
-        name: 'HUGO BARRERA'
-      },
-      {
-        label: '172XXXX922',
-        name: 'ANDRES SALAZAR'
-      },
-      {
-        label: '092XXXX341',
-        name: 'MARIUXI MOLINA'
-      }
-    ]
-  }    
+      { label: '094XXXX736', name: 'ADRIÁN MACÍAS' },
+      { label: '070XXXX125', name: 'ALLISON MEDINA' },
+      { label: '172XXXX922', name: 'ANDRES SALAZAR' },
+      { label: '172XXXX599', name: 'ARACELY HERRERA' },
+      { label: '171XXXX244', name: 'BURGOS VITERI' },
+      { label: '185XXXX576', name: 'CYNTHIA TIBAN' },
+      { label: '175XXXX917', name: 'ESTEBAN ADRIAN MEJIA' },
+      { label: '030XXXX036', name: 'FRANCISCO GUZNAY' },
+      { label: '107XXXX597', name: 'HUGO BARRERA' },
+      { label: '131XXXX106', name: 'JOHANA BRAVO' },
+      { label: '095XXXX557', name: 'KATHERINE YULISA RAMIREZ NAVARRETE' },
+      { label: '131XXXX564', name: 'KRISTEL CEDEÑO' },
+      { label: '090XXXX923', name: 'LUIS BORJA' },
+      { label: '010XXXX725', name: 'MARCO PINOS' },
+      { label: '1005208812', name: 'MARIO TITO' },
+      { label: '092XXXX341', name: 'MARIUXI MOLINA' },
+      { label: '172XXXX404', name: 'PEDRO ROBALINO' },
+      { label: '095XXXX976', name: 'SAÚL ABAD' },
+      { label: '131XXXX463', name: 'SLEIDER PARRALES' },
+      { label: '091XXXX248', name: 'WENDY NAVARRETE' },
+    ],
+  },
+  {
+    week: 'Semana 5',
+    wind: [
+      { label: '172XXXX612', name: 'ANDRES ALMEIDA' },
+      { label: '175XXXX923', name: 'ANGÉLICA TAPIA' },
+      { label: '095XXXX243', name: 'ANTONIO ANDRADE' },
+      { label: '094XXXX853', name: 'BLANCA LEONELA RONDAN ALLAUCA' },
+      { label: '172XXXX352', name: 'BRANDON SUAREZ' },
+      { label: '131XXXX280', name: 'BRUNO DAMIAN ESPINALES' },
+      { label: '171XXXX512', name: 'BRYAN BENAVIDES' },
+      { label: '015XXXX137', name: 'EDISSON BUENO' },
+      { label: '094XXXX929', name: 'FAUSTO RONQUILLO' },
+      { label: '092XXXX720', name: 'GEN VELEZ' },
+      { label: '092XXXX695', name: 'GINO VERA' },
+      { label: '050XXXX077', name: 'JAVIER RECALDE' },
+      { label: '130XXXX823', name: 'JESUS PACHAY' },
+      { label: '172XXXX021', name: 'JONATHAN EDUARDO HERRERA MEJIA' },
+      { label: '093XXXX347', name: 'JOSE VIÑAN' },
+      { label: '010XXXX244', name: 'LEONARDO BARRERA' },
+      { label: '176XXXXX705', name: 'LEONARDO JOSE ALTUVE NAVA' },
+      { label: '090XXXX944', name: 'MARITZA ARACELY ALVARADO ORDOÑEZ' },
+      { label: '172XXXX075', name: 'MARTÍN MANOSALVAS' },
+      { label: '131XXXX665', name: 'MERCEDES ALCIVAR' },
+      { label: '100XXXX161', name: 'MIRIAN DE LA CRUZ' },
+      { label: '172XXXX665', name: 'SEBASTIÁN CHABLAY' },
+      { label: '175XXXX986', name: 'SEBASTIÁN PONCE' },
+    ],
+  }
 ]
+
 
 export const howPart = [
   {

@@ -20,7 +20,7 @@ import ReactPixel from 'react-facebook-pixel'
 const TRACKING_ID = 'G-ZBV4H3NHES'
 const PIXEL_ID = '1069697930915333'
 const tagManagerArgs = {
-  gtmId: 'GTM-5633VBR',
+  gtmId: 'GTM-NZ8LPH2H',
 }
 
 ReactPixel.init(
